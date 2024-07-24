@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreGateway.Abstraction\CoreGateway.Abstraction.csproj" />
+    <ProjectReference Include="..\CoreGateway.DBMap\CoreGateway.DBMap.csproj" />
+    <ProjectReference Include="..\CoreGateway.Models\CoreGateway.Models.csproj" />
+    <ProjectReference Include="..\CoreGateway.Repository\CoreGateway.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
